@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\views\\members\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:views\\members\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\views\\viewmember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:views\\viewmember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\controllers\\viewmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:controllers\\viewmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\areas\\admin\\data\\membermgmt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:areas\\admin\\data\\membermgmt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Views\\ViewMember\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ViewMember\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Views\\ViewMember\\Index.cshtml",
+              "RelativeToolTip": "Views\\ViewMember\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T04:51:02.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MemberMgmt.cs",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Data\\MemberMgmt.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Data\\MemberMgmt.cs",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Data\\MemberMgmt.cs",
+              "RelativeToolTip": "Areas\\Admin\\Data\\MemberMgmt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T04:48:47.277Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -62,88 +76,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Views\\Members\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Members\\Create.cshtml",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Views\\Members\\Create.cshtml",
-              "RelativeToolTip": "Views\\Members\\Create.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T08:44:22.22Z",
+              "DocumentIndex": 1,
+              "Title": "ViewMemberController.cs",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Controllers\\ViewMemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ViewMemberController.cs",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Controllers\\ViewMemberController.cs",
+              "RelativeToolTip": "Controllers\\ViewMemberController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T04:31:16.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T06:38:16.621Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T06:38:20.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Views\\Members\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Members\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Views\\Members\\Index.cshtml",
-              "RelativeToolTip": "Views\\Members\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T06:28:29.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T03:18:34.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "DbModel.cs",
               "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Models\\DbModel.cs",
               "RelativeDocumentMoniker": "Models\\DbModel.cs",
               "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Models\\DbModel.cs",
               "RelativeToolTip": "Models\\DbModel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T03:08:56.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Member.cs",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Models\\Member.cs",
-              "RelativeDocumentMoniker": "Models\\Member.cs",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Models\\Member.cs",
-              "RelativeToolTip": "Models\\Member.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T02:44:27.372Z"
+              "WhenOpened": "2026-05-15T04:31:47.111Z",
+              "EditorCaption": ""
             }
           ]
         },

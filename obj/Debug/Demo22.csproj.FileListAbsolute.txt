@@ -83,3 +83,4 @@ C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\obj\Debug\Demo22.dll
 C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\obj\Debug\Demo22.pdb
 C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\obj\Debug\Demo22.Migrations.FirstDbSetup.resources
 C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\obj\Debug\Demo22.csproj.GenerateResource.cache
+C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\obj\Debug\Demo22.Migrations.AddMemberIdentity.resources

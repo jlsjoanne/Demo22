@@ -17,5 +17,7 @@ namespace Demo22.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }
+
+        public System.Data.Entity.DbSet<Demo22.ViewModels.ViewMember> ViewMembers { get; set; }
     }
 }

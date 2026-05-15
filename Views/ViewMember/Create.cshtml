@@ -1,4 +1,4 @@
-﻿@model Demo22.Models.Member
+﻿@model Demo22.ViewModels.ViewMember
 
 @{
     ViewBag.Title = "Create";
@@ -7,12 +7,12 @@
 <h2>Create</h2>
 
 
-@using (Html.BeginForm("Create", "Members", FormMethod.Post, new { enctype = "multipart/form-data", autocomplete = "off" })) 
+@using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>Member</h4>
+        <h4>ViewMember</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
