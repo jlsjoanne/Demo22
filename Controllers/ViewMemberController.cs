@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using Demo22.Models;
 using Demo22.ViewModels;
+using Demo22.App_Start;
 
 namespace Demo22.Controllers
 {
@@ -18,13 +19,7 @@ namespace Demo22.Controllers
         // GET: ViewMember
         public ActionResult Index()
         {
-            var members = db.Members
-                .Select(m => new
-                {
-                    m.Account,
-                    m.Name,
-                    m.Identity
-                });
+            var members = db.Members;
             return View(members.ToList());
         }
 
@@ -46,7 +41,8 @@ namespace Demo22.Controllers
         // GET: ViewMember/Create
         public ActionResult Create()
         {
-            return View();
+            var viewMember = new ViewMember();
+            return View(viewMember);
         }
 
         // POST: ViewMember/Create
@@ -58,7 +54,10 @@ namespace Demo22.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.ViewMembers.Add(viewMember);
+                var member = AutoMapperConfig.Mapper.Map<Member>(viewMember);
+                member.Identity = 0;
+
+                db.Members.Add(member);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -73,11 +72,12 @@ namespace Demo22.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            ViewMember viewMember = db.ViewMembers.Find(id);
-            if (viewMember == null)
+            var member = db.Members.Find(id);
+            if (member == null)
             {
                 return HttpNotFound();
             }
+            var viewMember = AutoMapperConfig.Mapper.Map<ViewMember>(member);
             return View(viewMember);
         }
 
@@ -86,13 +86,17 @@ namespace Demo22.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Account,Name")] ViewMember viewMember)
+        public ActionResult Edit(ViewMember viewMember)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(viewMember).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                var existingMember = db.Members.FirstOrDefault(m => m.Id == viewMember.Id);
+                if(existingMember != null)
+                {
+                    AutoMapperConfig.Mapper.Map(viewMember, existingMember);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
             }
             return View(viewMember);
         }

@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 using Demo22.Models.Enums;
+using System.Reflection;
 
 namespace Demo22.Models
 {
@@ -26,7 +27,24 @@ namespace Demo22.Models
         public string Name { get; set; }
 
         [Required]
-        [Display(Name = "身分")]
         public Identity Identity { get; set; }
+
+        [Display(Name="身分")]
+        public string IdentityDisplayName
+        {
+            get
+            {
+                var field = Identity.GetType().GetField(Identity.ToString());
+                if (field != null)
+                {
+                    var attr = field.GetCustomAttribute<DisplayAttribute>();
+                    if(attr != null)
+                    {
+                        return attr.GetName();
+                    }
+                }
+                return Identity.ToString();
+            }
+        }
     }
 }

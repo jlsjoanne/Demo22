@@ -18,6 +18,5 @@ namespace Demo22.Models
         {
         }
 
-        public System.Data.Entity.DbSet<Demo22.ViewModels.ViewMember> ViewMembers { get; set; }
     }
 }
