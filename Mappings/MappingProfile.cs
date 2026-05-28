@@ -5,7 +5,7 @@ using System.Web;
 using AutoMapper;
 using Demo22.Models;
 using Demo22.ViewModels;
-using Demo22.Areas.Admin.Data;
+using Demo22.Areas.Admin.ViewModels;
 
 namespace Demo22.Mappings
 {

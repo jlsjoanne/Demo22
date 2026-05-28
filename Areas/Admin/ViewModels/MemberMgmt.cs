@@ -6,7 +6,7 @@ using Demo22.Models.Enums;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
 
-namespace Demo22.Areas.Admin.Data
+namespace Demo22.Areas.Admin.ViewModels
 {
     public class MemberMgmt
     {

@@ -29,6 +29,20 @@ namespace Demo22.Models
         [Required]
         public Identity Identity { get; set; }
 
+        [MaxLength(100)]
+        [Display(Name = "密碼鹽")]
+        public string PasswordSalt { get; set; }
+
+        [Required(ErrorMessage = "{0}必填")]
+        [StringLength(100, ErrorMessage = "{0} 長度至少必須為 {2} 個字元。", MinimumLength = 4)]
+        [DataType(DataType.Password)]
+        [Display(Name = "密碼")]
+        public string Password { get; set; }
+
+        [Display(Name = "權限")]
+        [MaxLength(500)]
+        public string Permission { get; set; }
+
         [Display(Name="身分")]
         public string IdentityDisplayName
         {

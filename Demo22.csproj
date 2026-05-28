@@ -185,11 +185,14 @@
     <Compile Include="App_Start\AutoMapperConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\MemberController.cs" />
     <Compile Include="Areas\Admin\Controllers\MemberMgmtController.cs" />
     <Compile Include="Mappings\MappingProfile.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
-    <Compile Include="Areas\Admin\Data\MemberMgmt.cs" />
+    <Compile Include="Areas\Admin\ViewModels\MemberMgmt.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ViewMemberController.cs" />
     <Compile Include="Global.asax.cs">
@@ -203,14 +206,38 @@
     <Compile Include="Migrations\202605150315237_AddMemberIdentity.Designer.cs">
       <DependentUpon>202605150315237_AddMemberIdentity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202605280633599_AddMemberPwdPerm.cs" />
+    <Compile Include="Migrations\202605280633599_AddMemberPwdPerm.Designer.cs">
+      <DependentUpon>202605280633599_AddMemberPwdPerm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DbModel.cs" />
     <Compile Include="Models\Enum.cs" />
     <Compile Include="Models\Member.cs" />
+    <Compile Include="Models\Utility.cs" />
+    <Compile Include="Models\VM\LoginVm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\ViewMember.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Admin\Data\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Areas\Admin\Data\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Areas\Admin\Data\bootstrap\css\bootstrap.css" />
+    <Content Include="Areas\Admin\Data\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Areas\Admin\Data\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Areas\Admin\Data\bootstrap\js\bootstrap.js" />
+    <Content Include="Areas\Admin\Data\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Areas\Admin\Data\css\buttons.css" />
+    <Content Include="Areas\Admin\Data\css\calendar.css" />
+    <Content Include="Areas\Admin\Data\css\forms.css" />
+    <Content Include="Areas\Admin\Data\css\stats.css" />
+    <Content Include="Areas\Admin\Data\css\styles.css" />
+    <Content Include="Areas\Admin\Data\js\calendar.js" />
+    <Content Include="Areas\Admin\Data\js\custom.js" />
+    <Content Include="Areas\Admin\Data\js\editors.js" />
+    <Content Include="Areas\Admin\Data\js\forms.js" />
+    <Content Include="Areas\Admin\Data\js\stats.js" />
+    <Content Include="Areas\Admin\Data\js\tables.js" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -243,6 +270,17 @@
     <Content Include="Areas\Admin\Views\MemberMgmt\Details.cshtml" />
     <Content Include="Areas\Admin\Views\MemberMgmt\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\MemberMgmt\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Data\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Areas\Admin\Data\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Areas\Admin\Data\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Areas\Admin\Views\Account\Login.cshtml" />
+    <Content Include="Areas\Admin\Views\Member\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Member\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Member\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Member\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Member\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -309,6 +347,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202605150315237_AddMemberIdentity.resx">
       <DependentUpon>202605150315237_AddMemberIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202605280633599_AddMemberPwdPerm.resx">
+      <DependentUpon>202605280633599_AddMemberPwdPerm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

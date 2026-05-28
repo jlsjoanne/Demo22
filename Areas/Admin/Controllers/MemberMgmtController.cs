@@ -6,7 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using Demo22.Areas.Admin.Data;
+using Demo22.Areas.Admin.ViewModels;
 using Demo22.Models;
 using Demo22.App_Start;
 
