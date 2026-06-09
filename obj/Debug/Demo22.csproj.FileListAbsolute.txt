@@ -109,3 +109,5 @@ C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\bin\roslyn\System.Runtime.Compile
 C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\bin\System.IO.Pipelines.dll
 C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\bin\System.IO.Pipelines.xml
 C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\obj\Debug\Demo22.Migrations.AddMemberPwdPerm.resources
+C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\bin\MvcPaging.dll
+C:\Users\jlsjo\Documents\RocketCamp\MVC\Demo22\obj\Debug\Demo22.Migrations.AddGender.resources

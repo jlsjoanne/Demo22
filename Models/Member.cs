@@ -4,8 +4,8 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
-using Demo22.Models.Enums;
 using System.Reflection;
+using static Demo22.Models.EmumList;
 
 namespace Demo22.Models
 {
@@ -26,8 +26,11 @@ namespace Demo22.Models
         [MaxLength(20)]
         public string Name { get; set; }
 
+
+
         [Required]
-        public Identity Identity { get; set; }
+        [Display(Name="性別")]
+        public Gender Gender { get; set; }
 
         [MaxLength(100)]
         [Display(Name = "密碼鹽")]
@@ -43,22 +46,6 @@ namespace Demo22.Models
         [MaxLength(500)]
         public string Permission { get; set; }
 
-        [Display(Name="身分")]
-        public string IdentityDisplayName
-        {
-            get
-            {
-                var field = Identity.GetType().GetField(Identity.ToString());
-                if (field != null)
-                {
-                    var attr = field.GetCustomAttribute<DisplayAttribute>();
-                    if(attr != null)
-                    {
-                        return attr.GetName();
-                    }
-                }
-                return Identity.ToString();
-            }
-        }
+        
     }
 }

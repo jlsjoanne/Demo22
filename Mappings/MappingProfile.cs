@@ -4,8 +4,6 @@ using System.Linq;
 using System.Web;
 using AutoMapper;
 using Demo22.Models;
-using Demo22.ViewModels;
-using Demo22.Areas.Admin.ViewModels;
 
 namespace Demo22.Mappings
 {
@@ -13,10 +11,6 @@ namespace Demo22.Mappings
     {
         public MappingProfile()
         {
-            CreateMap<ViewMember, Member>()
-                .ForMember(dest => dest.Identity, opt => opt.Ignore()).ReverseMap();
-            CreateMap<MemberMgmt, Member>().ReverseMap();
-
         }
     }
 }

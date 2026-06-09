@@ -91,6 +91,9 @@
     <Reference Include="Microsoft.IdentityModel.Tokens, Version=8.18.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.IdentityModel.Tokens.8.18.0\lib\net472\Microsoft.IdentityModel.Tokens.dll</HintPath>
     </Reference>
+    <Reference Include="MvcPaging, Version=2.1.13.46, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MvcPaging.2.1.13\lib\net40\MvcPaging.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -188,13 +191,10 @@
     <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\MemberController.cs" />
-    <Compile Include="Areas\Admin\Controllers\MemberMgmtController.cs" />
     <Compile Include="Mappings\MappingProfile.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
-    <Compile Include="Areas\Admin\ViewModels\MemberMgmt.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ViewMemberController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -210,14 +210,17 @@
     <Compile Include="Migrations\202605280633599_AddMemberPwdPerm.Designer.cs">
       <DependentUpon>202605280633599_AddMemberPwdPerm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202606040804312_AddGender.cs" />
+    <Compile Include="Migrations\202606040804312_AddGender.Designer.cs">
+      <DependentUpon>202606040804312_AddGender.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DbModel.cs" />
-    <Compile Include="Models\Enum.cs" />
+    <Compile Include="Models\EnumList.cs" />
     <Compile Include="Models\Member.cs" />
     <Compile Include="Models\Utility.cs" />
     <Compile Include="Models\VM\LoginVm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModels\ViewMember.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\Admin\Data\bootstrap\css\bootstrap-theme.css" />
@@ -230,6 +233,7 @@
     <Content Include="Areas\Admin\Data\css\buttons.css" />
     <Content Include="Areas\Admin\Data\css\calendar.css" />
     <Content Include="Areas\Admin\Data\css\forms.css" />
+    <Content Include="Areas\Admin\Data\css\page.css" />
     <Content Include="Areas\Admin\Data\css\stats.css" />
     <Content Include="Areas\Admin\Data\css\styles.css" />
     <Content Include="Areas\Admin\Data\js\calendar.js" />
@@ -266,10 +270,6 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Admin\Views\MemberMgmt\Delete.cshtml" />
-    <Content Include="Areas\Admin\Views\MemberMgmt\Details.cshtml" />
-    <Content Include="Areas\Admin\Views\MemberMgmt\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\MemberMgmt\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
     <Content Include="Areas\Admin\Data\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Areas\Admin\Data\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
@@ -306,10 +306,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\ViewMember\Create.cshtml" />
-    <Content Include="Views\ViewMember\Details.cshtml" />
-    <Content Include="Views\ViewMember\Edit.cshtml" />
-    <Content Include="Views\ViewMember\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -350,6 +346,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202605280633599_AddMemberPwdPerm.resx">
       <DependentUpon>202605280633599_AddMemberPwdPerm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202606040804312_AddGender.resx">
+      <DependentUpon>202606040804312_AddGender.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

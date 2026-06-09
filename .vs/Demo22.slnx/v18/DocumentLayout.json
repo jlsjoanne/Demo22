@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\models\\vm\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:models\\vm\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\areas\\admin\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:areas\\admin\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\areas\\admin\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:areas\\admin\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\models\\enumlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:models\\enumlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\areas\\admin\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:areas\\admin\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\areas\\admin\\views\\member\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:areas\\admin\\views\\member\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|c:\\users\\jlsjo\\documents\\rocketcamp\\mvc\\demo22\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4BF6167-DF3A-4350-8AA3-B58D5F8E44E9}|Demo22.csproj|solutionrelative:areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +38,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginVm.cs",
-              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Models\\VM\\LoginVm.cs",
-              "RelativeDocumentMoniker": "Models\\VM\\LoginVm.cs",
-              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Models\\VM\\LoginVm.cs",
-              "RelativeToolTip": "Models\\VM\\LoginVm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Models\\Member.cs",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Models\\Member.cs",
+              "RelativeToolTip": "Models\\Member.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA7wAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T07:04:54.605Z",
+              "WhenOpened": "2026-06-04T07:46:48.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnumList.cs",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Models\\EnumList.cs",
+              "RelativeDocumentMoniker": "Models\\EnumList.cs",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Models\\EnumList.cs",
+              "RelativeToolTip": "Models\\EnumList.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:41:14.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Views\\Member\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Member\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Views\\Member\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Member\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAtwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T06:57:54.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Views\\Member\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Member\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Views\\Member\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Member\\Edit.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAtwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T06:19:02.191Z",
               "EditorCaption": ""
             },
             {
@@ -52,6 +115,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Views\\Member\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Member\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Views\\Member\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Member\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T06:12:22.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAD8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T06:11:56.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\jlsjo\\Documents\\RocketCamp\\MVC\\Demo22\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T06:45:19.433Z",
+              "EditorCaption": ""
             }
           ]
         },
